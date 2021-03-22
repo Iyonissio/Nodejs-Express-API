@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 app.use('/users', usersRouters);
 
 app.get('/', (req, res) => {
-    console.log('[TEST]!');
     res.send('Ola from Homepage.');
 });
 
